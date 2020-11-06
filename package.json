@@ -1,0 +1,26 @@
+{
+  "name": "spaceshooter-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "yarn webpack-cli serve  --hot --inline --port 3001 --content-base ./build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@webpack-cli/serve": "^1.0.1",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "es6-tween": "^5.5.11",
+    "pixi-particles": "^4.3.0",
+    "pixi.js": "^5.3.3",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "webpack": "~4.44"
+  }
+}
