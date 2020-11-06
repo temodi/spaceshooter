@@ -59,7 +59,6 @@ class SpaceShip extends Collideable {
             }
         }
         fire = () => {
-                console.log( this.getX() ,  this.getY(), this.getWidth(), this.getHeight())
                 let rocket = new Rocket(this._pixiApp, this._container, this.getX() + this.getWidth() , this.getY()+ this.getHeight()/2)
                 rocket.setSpeed(15)
                 rocket.fire()

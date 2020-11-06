@@ -23,7 +23,6 @@ class Rocket extends Collideable {
             this._speed = speed
         }
         fire = () => {
-            console.log("fire")
             this._isFired = true
             this._container.addChild(this._rocket)
         }
